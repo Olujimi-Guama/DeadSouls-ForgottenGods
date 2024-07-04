@@ -1,0 +1,47 @@
+/ DONE
+001   _blank.c
+001 start.c
+001 cavepass1.c
+001 cavepass2.c
+001 cavepass3.c
+001 cavepass4.c
+001 cavepass5.c
+001 cavepass6.c
+001 cavepass7.c
+001 cavepass8.c
+001 cavepass9.c
+001 cavepass10.c
+001 cavepass11.c
+001 cavepass13.c
+001 common1.c
+001 common2.c
+001 common3.c
+001 common4.c
+001 guardroom1.c
+001 guardroom2.c
+001 guardroom3.c
+001 guardroom4.c
+001 kurogane.c
+001 rubbish.c
+001 chieftain.c
+001 dining1.c
+001 food_storage1.c
+
+001 cavetroll.c *needs further attention
+001 shop.c *needs further attention
+001 shop2.c *needs further attention
+001 weapon_storage1.c *needs further attention
+
+//DEFAULT ROOMS
+001 furnace.c
+001 wiz_hall.c
+001 void.c
+001 death.c
+001 pod.c
+001 freezer.c  
+
+
+// UPDATING
+
+/domains/legacy/cave/room/cavetroll
+/domains/legacy/cave/npc/orc_male1

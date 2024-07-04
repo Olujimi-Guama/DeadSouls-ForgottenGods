@@ -1,0 +1,228 @@
+NEW_LOG 2017.03.07-18.25,59
+
+--- Forgotten-Gods
+2021.06.19-22.47,38
+*Could not open /domains/campus/save/charles.o.tmp for a save.
+Object: /domains/campus/npc/charles#1485 (/<driver>) at line 0
+
+'heart_beat' at /domains/campus/npc/charles#1485 (/domains/campus/npc/monty.c) at line 209
+'eventBeginPlay' at /domains/campus/npc/charles#1485 (/domains/campus/npc/monty.c) at line 68
+'SaveObject' at /domains/campus/npc/charles#1485 (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /domains/campus/npc/charles#1485 (/<driver>) at line 0
+
+--- Forgotten-Gods
+2021.06.19-22.47,38
+*Could not open /domains/campus/save/charly.o.tmp for a save.
+Object: /domains/campus/npc/charly#1492 (/<driver>) at line 0
+
+'heart_beat' at /domains/campus/npc/charly#1492 (/domains/campus/npc/monty.c) at line 209
+'eventBeginPlay' at /domains/campus/npc/charly#1492 (/domains/campus/npc/monty.c) at line 68
+'SaveObject' at /domains/campus/npc/charly#1492 (/lib/props/save.c) at line 41
+'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
+'apply_unguarded' at /secure/daemon/master at line 606
+'CATCH' at /secure/daemon/master at line 606
+'<fake>' at /domains/campus/npc/charly#1492 (/<driver>) at line 0
+
+--- Forgotten-Gods
+2021.06.19-22.48,26
+*say() makes no sense with no this_player()
+Object: /secure/sefun/sefun at /secure/sefun/communications.c:14
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 146
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/town/virtual/forest/-13,13 at line 74
+'SetInventory' at /domains/town/virtual/forest/-13,13 (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/town/virtual/forest/-13,13 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/town/virtual/forest/-13,13 (/lib/props/inventory.c) at line 36
+'eventMove' at /domains/town/npc/nymph#2005 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/town/npc/nymph#2005 (/lib/npc.c) at line 213
+'eventMove' at /domains/town/npc/nymph#2005 (/lib/props/move.c) at line 176
+'eventSwim' at /domains/town/npc/nymph#2005 (/lib/lvs/position.c) at line 154
+'say' at /secure/sefun/sefun at /secure/sefun/communications.c:14
+
+--- Forgotten-Gods
+2021.06.19-22.48,50
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 146
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-22.54,52
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-22.55,30
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.06,00
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.16,15
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.16,55
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.26,11
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.27,04
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.35,44
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.37,26
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.45,32
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.46,28
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.55,55
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.19-23.56,29
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2021.06.20-00.06,21
+*call_other() couldn't find object
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'heart_beat' at /daemon/map at line 51
+'GetMap' at /daemon/map at line 100
+'GetGridMap' at /secure/daemon/rooms at line 146
+'CATCH' at /secure/daemon/rooms at line 146
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35

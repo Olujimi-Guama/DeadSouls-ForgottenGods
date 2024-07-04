@@ -23,6 +23,8 @@
 #define LIB_COST          DIR_PROPS "/cost"
 #define LIB_ADDSTUFF      DIR_PROPS "/addstuff"
 #define LIB_EXTRA_PARSE   DIR_PROPS "/extra_parse"
+#define LIB_MATERIALS	    DIR_PROPS "/materials"
+#define LIB_SOULBOUND	    DIR_PROPS "/soulbound"
 
 
 #endif /* s_props_h */

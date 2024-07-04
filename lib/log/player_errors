@@ -1,0 +1,14 @@
+-----
+2023.05.28-18.40,10: Tormir
+*Bad type argument to +.  Had array and int.
+Object: /daemon/help at line 61
+
+#0: '<fake>' at /secure/save/players/t/tormir (/<driver>) at line 0
+#1: 'cmdAll' at /secure/save/players/t/tormir (/lib/command.c) at line 231
+#2: 'cmd' at /cmds/common/help at line 34
+#3: 'create' at /daemon/help at line 27
+#4: 'LoadIndices' at /daemon/help at line 61
+
+object:OBJECT (/daemon/help), error:*Bad type argument to +.  Had array and int.
+, trace:ARRAY (), program:/daemon/help.c, file:/daemon/help.c, line:61
+-----

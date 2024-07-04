@@ -1,0 +1,1655 @@
+----------------------------------------------------------------------------
+Forgotten-Gods (FluffOS v2.23-ds03) starting up on Linux - Sat May  5 19:13:37 2018
+
+
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 6690.
+
+Running autoexec, please wait...
+Autoexec daemon run complete. (36ms)
+
+CPU time in boot: 0.31 seconds. (Performance score: Spectacular.)
+
+
+--- Forgotten-Gods
+2018.07.24-15.45,21
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#1810 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#1810 at line 356
+
+--- Forgotten-Gods
+2018.08.18-09.02,54
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#2276 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#2276 at line 356
+
+--- Forgotten-Gods
+2018.08.18-09.08,36
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.09,26
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.10,16
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.11,06
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.11,56
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.12,46
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.13,36
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.14,26
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.15,16
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.16,06
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.18-09.16,56
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.08.19-07.50,49
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#2311 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#2311 at line 356
+
+--- Forgotten-Gods
+2018.08.24-21.55,33
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#2451 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#2451 at line 356
+
+--- Forgotten-Gods
+2018.10.02-07.54,08
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#3390 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#3390 at line 356
+
+--- Forgotten-Gods
+2018.10.02-07.59,26
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.00,16
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.01,06
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.01,56
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.02,46
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.03,36
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.04,26
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.05,16
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.06,06
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.06,56
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.10.02-08.07,46
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2018.11.17-18.49,32
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#4685 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#4685 at line 356
+
+--- Forgotten-Gods
+2019.04.02-14.44,21
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#8782 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#8782 at line 356
+
+--- Forgotten-Gods
+2019.05.28-10.08,02
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#10685 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#10685 at line 356
+
+--- Forgotten-Gods
+2019.06.30-08.50,07
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#11984 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#11984 at line 356
+
+--- Forgotten-Gods
+2019.06.30-08.51,07
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#11985 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#11985 at line 356
+
+--- Forgotten-Gods
+2019.07.02-12.23,24
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#12074 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#12074 at line 356
+
+--- Forgotten-Gods
+2019.07.15-03.28,42
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#12531 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#12531 at line 356
+
+--- Forgotten-Gods
+2019.07.25-14.19,01
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#12911 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#12911 at line 356
+
+--- Forgotten-Gods
+2019.09.22-04.52,30
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#14879 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#14879 at line 356
+
+--- Forgotten-Gods
+2019.09.22-14.36,07
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#14884 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#14884 at line 356
+
+--- Forgotten-Gods
+2019.09.24-16.31,40
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#14967 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#14967 at line 356
+
+--- Forgotten-Gods
+2019.10.15-13.11,32
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#15661 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#15661 at line 356
+
+--- Forgotten-Gods
+2019.10.16-12.42,47
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#15697 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#15697 at line 356
+
+--- Forgotten-Gods
+2019.10.30-04.47,08
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#16107 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#16107 at line 356
+
+--- Forgotten-Gods
+2019.10.30-04.48,08
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#16108 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#16108 at line 356
+
+--- Forgotten-Gods
+2019.10.31-13.00,53
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#16149 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#16149 at line 356
+
+--- Forgotten-Gods
+2019.11.02-14.42,57
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#16219 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#16219 at line 356
+
+--- Forgotten-Gods
+2019.11.06-14.42,33
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#16335 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#16335 at line 356
+
+--- Forgotten-Gods
+2019.11.26-17.51,52
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#20092 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#20092 at line 356
+
+--- Forgotten-Gods
+2019.11.26-17.52,52
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#20093 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#20093 at line 356
+
+--- Forgotten-Gods
+2019.12.02-04.58,42
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#22256 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#22256 at line 356
+
+--- Forgotten-Gods
+2019.12.03-23.38,27
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#22309 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#22309 at line 356
+
+--- Forgotten-Gods
+2019.12.19-18.49,56
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#24794 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#24794 at line 356
+
+--- Forgotten-Gods
+2019.12.19-18.50,11
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#24794 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#24794 at line 356
+
+--- Forgotten-Gods
+2019.12.19-18.50,12
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#24794 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#24794 at line 356
+
+--- Forgotten-Gods
+2019.12.26-16.46,25
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#25083 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#25083 at line 356
+
+--- Forgotten-Gods
+2019.12.26-16.52,46
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-16.53,36
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-16.54,26
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-16.55,16
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-16.56,06
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-16.56,56
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-16.57,46
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-16.58,36
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-16.59,26
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.26-17.00,16
+*Bad socket, fd 2
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2019.12.28-08.34,51
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#25193 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#25193 at line 356
+
+--- Forgotten-Gods
+2019.12.28-08.35,52
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#25195 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#25195 at line 356
+
+--- Forgotten-Gods
+2019.12.29-09.38,11
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#25249 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#25249 at line 356
+
+--- Forgotten-Gods
+2020.01.22-16.26,24
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26028 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26028 at line 356
+
+--- Forgotten-Gods
+2020.01.22-16.26,35
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26028 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26028 at line 356
+
+--- Forgotten-Gods
+2020.01.22-16.26,36
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26028 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26028 at line 356
+
+--- Forgotten-Gods
+2020.01.31-18.28,26
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26347 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26347 at line 356
+
+--- Forgotten-Gods
+2020.01.31-18.29,26
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26348 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26348 at line 356
+
+--- Forgotten-Gods
+2020.02.08-18.53,56
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26646 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26646 at line 356
+
+--- Forgotten-Gods
+2020.02.09-22.58,07
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26682 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26682 at line 356
+
+--- Forgotten-Gods
+2020.02.10-17.35,03
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26716 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26716 at line 356
+
+--- Forgotten-Gods
+2020.02.16-13.55,03
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26943 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26943 at line 356
+
+--- Forgotten-Gods
+2020.02.16-13.56,04
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#26944 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#26944 at line 356
+
+--- Forgotten-Gods
+2020.02.21-01.51,37
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#27097 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#27097 at line 356
+
+--- Forgotten-Gods
+2020.02.29-06.08,32
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#27468 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#27468 at line 356
+
+--- Forgotten-Gods
+2020.02.29-07.28,15
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#27470 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#27470 at line 356
+
+--- Forgotten-Gods
+2020.03.01-03.54,08
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#27489 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#27489 at line 356
+
+--- Forgotten-Gods
+2020.03.01-09.13,08
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#27519 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#27519 at line 356
+
+--- Forgotten-Gods
+2020.03.01-09.13,23
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#27520 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#27520 at line 356
+
+--- Forgotten-Gods
+2020.03.25-02.18,45
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#28294 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#28294 at line 356
+
+--- Forgotten-Gods
+2020.04.07-02.48,18
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#28755 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#28755 at line 356
+
+--- Forgotten-Gods
+2020.04.11-11.13,26
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#28912 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#28912 at line 356
+
+--- Forgotten-Gods
+2020.04.22-21.52,11
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#29373 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#29373 at line 356
+
+--- Forgotten-Gods
+2020.04.22-21.53,32
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#29375 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#29375 at line 356
+
+--- Forgotten-Gods
+2020.05.21-03.22,24
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#30202 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#30202 at line 356
+
+--- Forgotten-Gods
+2020.07.27-15.52,45
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#32750 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#32750 at line 356
+
+--- Forgotten-Gods
+2020.08.16-05.28,35
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#33502 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#33502 at line 356
+
+--- Forgotten-Gods
+2020.08.22-09.34,28
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#33722 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#33722 at line 356
+
+--- Forgotten-Gods
+2020.08.25-02.35,08
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#33834 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#33834 at line 356
+
+--- Forgotten-Gods
+2020.09.14-18.05,21
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#53165 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#53165 at line 356
+
+--- Forgotten-Gods
+2020.09.24-06.13,00
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#59632 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#59632 at line 356
+
+--- Forgotten-Gods
+2020.10.01-15.01,43
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#59875 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#59875 at line 356
+
+--- Forgotten-Gods
+2020.10.06-22.07,43
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60045 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60045 at line 356
+
+--- Forgotten-Gods
+2020.10.06-22.08,00
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60045 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60045 at line 356
+
+--- Forgotten-Gods
+2020.10.07-10.23,41
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60068 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60068 at line 356
+
+--- Forgotten-Gods
+2020.10.07-10.30,16
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.31,06
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.31,56
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.32,46
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.33,36
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.34,26
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.35,16
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.36,06
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.36,56
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.07-10.37,46
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.10.08-09.01,02
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60091 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60091 at line 356
+
+--- Forgotten-Gods
+2020.10.08-18.57,38
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60107 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60107 at line 356
+
+--- Forgotten-Gods
+2020.10.08-23.29,54
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60110 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60110 at line 356
+
+--- Forgotten-Gods
+2020.10.18-05.47,52
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60431 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60431 at line 356
+
+--- Forgotten-Gods
+2020.10.25-16.31,06
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60719 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60719 at line 356
+
+--- Forgotten-Gods
+2020.11.03-14.18,02
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#60999 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#60999 at line 356
+
+--- Forgotten-Gods
+2020.11.04-18.39,09
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#61063 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#61063 at line 356
+
+--- Forgotten-Gods
+2020.11.07-13.36,53
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#61159 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#61159 at line 356
+
+--- Forgotten-Gods
+2020.11.07-23.23,59
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#61173 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#61173 at line 356
+
+--- Forgotten-Gods
+2020.11.10-19.46,43
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#61273 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#61273 at line 356
+
+--- Forgotten-Gods
+2020.11.10-20.04,21
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#61275 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#61275 at line 356
+
+--- Forgotten-Gods
+2020.11.10-20.34,17
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#61277 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#61277 at line 356
+
+--- Forgotten-Gods
+2020.11.10-20.40,16
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.41,06
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.41,56
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.42,46
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.43,36
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.44,26
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.45,16
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.46,06
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.46,56
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.10-20.47,46
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.11.14-13.30,06
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#61482 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#61482 at line 356
+
+--- Forgotten-Gods
+2020.11.19-20.44,39
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#61794 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#61794 at line 356
+
+--- Forgotten-Gods
+2020.11.29-13.48,13
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#62497 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#62497 at line 356
+
+--- Forgotten-Gods
+2020.12.11-16.59,30
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#62907 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#62907 at line 356
+
+--- Forgotten-Gods
+2020.12.20-13.04,56
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#63212 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#63212 at line 356
+
+--- Forgotten-Gods
+2020.12.27-21.47,23
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#63475 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#63475 at line 356
+
+--- Forgotten-Gods
+2020.12.27-23.18,19
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#63488 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#63488 at line 356
+
+--- Forgotten-Gods
+2020.12.28-00.27,37
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#63490 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#63490 at line 356
+
+--- Forgotten-Gods
+2020.12.28-20.31,11
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#63535 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#63535 at line 356
+
+--- Forgotten-Gods
+2020.12.28-20.38,36
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.28-20.39,26
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.28-20.40,16
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.28-20.41,06
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.28-20.41,56
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.28-20.42,46
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.28-20.43,36
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.28-20.44,26
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.28-20.45,16
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2020.12.29-05.44,57
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#63540 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#63540 at line 356
+
+--- Forgotten-Gods
+2021.01.19-04.35,15
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#64347 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#64347 at line 356
+
+--- Forgotten-Gods
+2021.01.27-15.55,32
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#64635 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#64635 at line 356
+
+--- Forgotten-Gods
+2021.01.29-12.56,13
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#64688 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#64688 at line 356
+
+--- Forgotten-Gods
+2021.02.04-20.13,50
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#64940 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#64940 at line 356
+
+--- Forgotten-Gods
+2021.02.05-19.10,36
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#64979 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#64979 at line 356
+
+--- Forgotten-Gods
+2021.02.08-08.45,11
+*Bad argument 1 to lower_case()
+Expected: string Got: 0.
+Object: /secure/lib/net/http#65076 at line 356
+
+'eventServerReadCallback' at /secure/lib/net/server#3 at line 188
+'eventRead' at /secure/lib/net/http#65076 at line 356
+
+--- Forgotten-Gods
+2021.02.08-08.50,16
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.51,06
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.51,56
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.52,46
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.53,36
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.54,26
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.55,16
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.56,06
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.56,56
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.57,46
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+--- Forgotten-Gods
+2021.02.08-08.58,36
+*Bad socket, fd 7
+Object: /secure/daemon/imc2 at line 204
+
+'heart_beat' at /secure/daemon/imc2 at line 643
+'send_keepalive_request' at /secure/daemon/imc2 at line 841
+'send_packet' at /secure/daemon/imc2 at line 831
+'send_text' at /secure/daemon/imc2 at line 535
+'validate' at /secure/daemon/imc2 at line 204
+
+END-OF-LOG

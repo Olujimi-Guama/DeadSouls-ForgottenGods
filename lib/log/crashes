@@ -1,0 +1,241 @@
+DeadSoulsNew crashed Sun Jun 21 16:11:13 2015 with error Process interrupted.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Tue Mar  7 23:24:56 2017 with error Process interrupted.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Fri Mar 10 21:31:53 2017 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+2:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: base_name, origin: local
+3:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: <function>, origin: functional
+4:OBJ(/secure/sefun/sefun), file: /<driver>, fun: <function>, origin: function pointer
+5:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: reap_other, origin: simul
+6:OBJ(/secure/daemon/reaper), file: /secure/daemon/reaper.c, fun: eventReap, origin: local
+7:OBJ(/secure/daemon/reaper), file: /<driver>, fun: <function>, origin: function pointer
+({ OBJ(/secure/sefun/sefun), OBJ(/secure/sefun/sefun), OBJ(/secure/daemon/reaper) })
+---
+Forgotten-Gods crashed Sat Apr  8 10:27:43 2017 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Apr 22 20:59:08 2018 with error Process interrupted.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Apr 22 21:09:41 2018 with error Process interrupted.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sat May  5 19:13:12 2018 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Fri Jun 18 19:21:47 2021 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jan  2 01:46:06 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jan  2 02:00:04 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jan  2 04:00:43 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jan  2 04:07:29 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jan  2 04:11:07 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jan  2 21:04:26 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jan  2 21:26:16 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jan  2 21:26:17 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+2:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: CATCH, origin: simul
+3:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: load_object, origin: simul
+4:OBJ(/secure/daemon/autoexec), file: /secure/daemon/autoexec.c, fun: CATCH, origin: local
+5:OBJ(/secure/daemon/autoexec), file: /secure/daemon/autoexec.c, fun: eventRun, origin: local
+6:OBJ(/secure/daemon/autoexec), file: /<driver>, fun: <function>, origin: function pointer
+({ OBJ(/secure/sefun/sefun), OBJ(/secure/daemon/autoexec) })
+---
+Forgotten-Gods crashed Sun Jul  3 20:30:06 2022 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Wed Sep 13 10:58:06 2023 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Wed Sep 13 10:57:58 2023 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+2:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: CATCH, origin: simul
+3:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: load_object, origin: simul
+4:OBJ(/daemon/verbs), file: /daemon/verbs.c, fun: CATCH, origin: call_other
+5:OBJ(/daemon/verbs), file: /daemon/verbs.c, fun: ScheduledVerbLoad, origin: call_other
+6:OBJ(/daemon/verbs), file: /<driver>, fun: <function>, origin: function pointer
+({ OBJ(/secure/sefun/sefun), OBJ(/daemon/verbs), OBJ(/daemon/verbs) })
+---
+Forgotten-Gods crashed Thu May 23 18:00:19 2024 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+2:OBJ(/secure/daemon/imc2), file: /<driver>, fun: <function>, origin: function pointer
+3:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: CATCH, origin: call_other
+4:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: apply_unguarded, origin: call_other
+5:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: unguarded, origin: simul
+6:OBJ(/secure/daemon/imc2), file: /lib/props/save.c, fun: SaveObject, origin: local
+7:OBJ(/secure/daemon/imc2), file: /secure/daemon/imc2.c, fun: remove, origin: local
+8:OBJ(/secure/daemon/imc2), file: /secure/daemon/imc2.c, fun: eventDestruct, origin: call_other
+9:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: reload, origin: simul
+10:OBJ(/secure/daemon/reload), file: /secure/daemon/reload.c, fun: eventReload, origin: call_other
+11:OBJ(/secure/daemon/imc2), file: /secure/daemon/imc2.c, fun: heart_beat, origin: driver
+({ OBJ(/secure/daemon/imc2), OBJ(/secure/daemon/master), OBJ(/secure/sefun/sefun), OBJ(/secure/daemon/imc2), OBJ(/secure/sefun/sefun), OBJ(/secure/daemon/reload), OBJ(/secure/daemon/imc2) })
+---
+Forgotten-Gods crashed Thu May 23 18:00:35 2024 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+2:OBJ(chest /domains/default/obj/chest#38), file: /lib/props/inventory.c, fun: eventLoadItem, origin: local
+3:OBJ(chest /domains/default/obj/chest#38), file: /lib/props/inventory.c, fun: eventLoadInventory, origin: local
+4:OBJ(chest /domains/default/obj/chest#38), file: /lib/comp/holder.c, fun: eventLoadInventory, origin: local
+5:OBJ(chest /domains/default/obj/chest#38), file: /lib/props/inventory.c, fun: reset, origin: local
+6:OBJ(chest /domains/default/obj/chest#38), file: /<driver>, fun: <function>, origin: function pointer
+({ OBJ(chest /domains/default/obj/chest#38) })
+---
+Forgotten-Gods crashed Sun Jun 30 21:15:26 2024 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Sun Jun 30 21:15:27 2024 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+2:OBJ(chest /domains/default/obj/chest#38), file: /lib/props/inventory.c, fun: eventLoadItem, origin: local
+3:OBJ(chest /domains/default/obj/chest#38), file: /lib/props/inventory.c, fun: eventLoadInventory, origin: local
+4:OBJ(chest /domains/default/obj/chest#38), file: /lib/comp/holder.c, fun: eventLoadInventory, origin: local
+5:OBJ(chest /domains/default/obj/chest#38), file: /lib/props/inventory.c, fun: reset, origin: local
+6:OBJ(chest /domains/default/obj/chest#38), file: /<driver>, fun: <function>, origin: function pointer
+({ OBJ(chest /domains/default/obj/chest#38) })
+---
+Forgotten-Gods crashed Mon Jul  1 03:04:00 2024 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Mon Jul  1 03:03:54 2024 with error Process terminated.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+2:OBJ(kleiner /domains/campus/npc/kleiner#82), file: /lib/chat.c, fun: GetChannels, origin: call_other
+3:OBJ(kleiner /domains/campus/npc/kleiner#82), file: /lib/command.c, fun: process_input, origin: local
+4:OBJ(kleiner /domains/campus/npc/kleiner#82), file: /lib/command.c, fun: eventForce, origin: local
+5:OBJ(kleiner /domains/campus/npc/kleiner#82), file: /lib/npc.c, fun: eventCompleteMove, origin: local
+6:OBJ(kleiner /domains/campus/npc/kleiner#82), file: /lib/npc.c, fun: eventMove, origin: call_other
+7:OBJ(/domains/campus/room/slab), file: /lib/props/inventory.c, fun: eventLoadItem, origin: local
+8:OBJ(/domains/campus/room/slab), file: /lib/props/inventory.c, fun: eventLoadInventory, origin: local
+9:OBJ(/domains/campus/room/slab), file: /lib/props/inventory.c, fun: SetInventory, origin: local
+10:OBJ(/domains/campus/room/slab), file: /domains/campus/room/slab.c, fun: create, origin: driver
+11:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: CATCH, origin: local
+12:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: load_object, origin: local
+13:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: reload, origin: simul
+14:OBJ(/secure/daemon/autoexec), file: /secure/daemon/autoexec.c, fun: CATCH, origin: local
+15:OBJ(/secure/daemon/autoexec), file: /secure/daemon/autoexec.c, fun: eventRun, origin: local
+16:OBJ(/secure/daemon/autoexec), file: /<driver>, fun: <function>, origin: function pointer
+({ OBJ(kleiner /domains/campus/npc/kleiner#82), OBJ(/domains/campus/room/slab), OBJ(/domains/campus/room/slab), OBJ(/secure/sefun/sefun), OBJ(/secure/daemon/autoexec) })
+---
+Forgotten-Gods crashed Thu Jul  4 11:04:44 2024 with error Process interrupted.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Thu Jul  4 11:04:44 2024 with error Process interrupted.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Thu Jul  4 11:55:04 2024 with error Process interrupted.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+({ })
+---
+Forgotten-Gods crashed Thu Jul  4 11:55:42 2024 with error Process interrupted.
+
+0:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: get_stack, origin: simul
+1:OBJ(/secure/daemon/master), file: /secure/daemon/master.c, fun: crash, origin: driver
+2:OBJ(stargate /domains/default/obj/stargate#62), file: /lib/props/id.c, fun: GetId, origin: call_other
+3:OBJ(stargate /domains/default/obj/stargate#62), file: /lib/props/id.c, fun: ReceiveCanonicalId, origin: call_other
+4:OBJ(sign /lib/std/dummy#61), file: /lib/props/id.c, fun: ReceiveCanonicalId, origin: call_other
+5:OBJ(stargate /domains/default/obj/stargate#62), file: /lib/props/id.c, fun: eventAnnounceCanonicalId, origin: local
+6:OBJ(stargate /domains/default/obj/stargate#62), file: /lib/props/move.c, fun: eventMove, origin: local
+7:OBJ(stargate /domains/default/obj/stargate#62), file: /lib/std/item.c, fun: eventMove, origin: call_other
+8:OBJ(/domains/default/room/stargate_lab), file: /lib/props/inventory.c, fun: eventLoadItem, origin: local
+9:OBJ(/domains/default/room/stargate_lab), file: /lib/props/inventory.c, fun: eventLoadInventory, origin: local
+10:OBJ(/domains/default/room/stargate_lab), file: /lib/props/inventory.c, fun: SetInventory, origin: local
+11:OBJ(/domains/default/room/stargate_lab), file: /domains/default/room/stargate_lab.c, fun: create, origin: driver
+12:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: CATCH, origin: local
+13:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: load_object, origin: local
+14:OBJ(/secure/sefun/sefun), file: /secure/sefun/sefun.c, fun: reload, origin: simul
+15:OBJ(/secure/daemon/autoexec), file: /secure/daemon/autoexec.c, fun: CATCH, origin: local
+16:OBJ(/secure/daemon/autoexec), file: /secure/daemon/autoexec.c, fun: eventRun, origin: local
+17:OBJ(/secure/daemon/autoexec), file: /<driver>, fun: <function>, origin: function pointer
+({ OBJ(stargate /domains/default/obj/stargate#62), OBJ(sign /lib/std/dummy#61), OBJ(sign /lib/std/dummy#61), OBJ(stargate /domains/default/obj/stargate#62), OBJ(/domains/default/room/stargate_lab), OBJ(/secure/sefun/sefun), OBJ(/secure/daemon/autoexec) })
+---

@@ -19,6 +19,7 @@ inherit LIB_RADIANCE;
 inherit LIB_SMELL;
 inherit LIB_TOUCH;
 inherit LIB_SHOOT;
+inherit LIB_MATERIALS;
 
 mixed CanDest(){
     if(environment() != environment(this_player()) &&

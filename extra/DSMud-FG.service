@@ -1,0 +1,16 @@
+# Debian service to run MUD after network connection
+# add in /etc/systemd/system/ then run the following 
+# commands to enable and run
+# sudo systemctl enable myscript.service
+# sudo systemctl start myscript.service
+
+[Unit]
+Description=Dead Souls Mud - Forgotten-Gods
+After=network-online.target
+
+[Service]
+ExecStart=/path/to/myscript.sh
+# Add any other relevant options here
+
+[Install]
+WantedBy=multi-user.target

@@ -3,8 +3,8 @@
 #define DEFAULT_PROMPT           "> "
 #define HOST_IP                  "127.0.0.1"
 #define MUD_STATUS               "mudlib development"
-#define ADMIN_EMAIL              "admin@here"
-#define DEBUGGER                 "DEBUG_NAME"
+#define ADMIN_EMAIL              "elohim@technocratia.com"
+#define DEBUGGER                 "elohim"
 #define LOCAL_NEWS_PREFIX        "nm"
 #define MUD_IS_LOCKED            0
 #define AUTO_WIZ                 0
@@ -67,12 +67,17 @@
 #define WEB_SOURCE_IP            "97.107.133.86"
 #define WEB_SOURCE_NAME          "dead-souls.net"
 #define DESTRUCT_LOGGING         0
+#define ROUTER_NAME              "Alpha"
+#define IRN_PASSWORD             "Alpha"
+#define IRN_PASSWORD1            "Bravo"
+#define IRN_PASSWORD2            "Charlie"
+#define IRN_PASSWORD3            "Delta"
 #define ROUTER_TESTING           1
 #define SEFUN_PLURALIZE          0
 #define LOG_REMOTE_CHANS         0
 #define LOG_LOCAL_CHANS          1
 #define ENABLE_CGI               0
-#define WWW_DIR_LIST             0
+#define WWW_DIR_LIST             1
 #define ENABLE_CREWEB            0
 #define F_TERMINAL_COLOR         1
 #define MAX_CALL_OUTS            750
@@ -89,7 +94,6 @@
 #define GRID                     1
 #define ENABLE_INSTANCES         0
 #define CED_DISABLED             1
-#define PLAYER_INTERTELL_ALLOWED 0
 #define GUEST_ALLOWED            1
-
+#define PLAYER_INTERTELL_ALLOWED 0
 #endif /* s_config_h */

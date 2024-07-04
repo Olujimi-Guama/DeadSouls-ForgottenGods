@@ -1,0 +1,1415 @@
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Roses/room/legionpost at line 33
+'findClassMaster' at /domains/Roses/room/legionpost at line 59
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_fighter at line 27
+'SetRace' at /domains/Roses/npc/class_master_fighter (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_fighter#814 (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+'create' at /domains/Roses/room/legionpost at line 33
+'findClassMaster' at /domains/Roses/room/legionpost at line 59
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_fighter#814 at line 27
+'SetRace' at /domains/Roses/npc/class_master_fighter#814 (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_fighter#814 (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_fighter#814 (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_mage (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Roses/room/enclave at line 42
+'findClassMaster' at /domains/Roses/room/enclave at line 64
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_mage at line 25
+'SetRace' at /domains/Roses/npc/class_master_mage (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_mage (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_mage (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_mage#837 (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+'create' at /domains/Roses/room/enclave at line 42
+'findClassMaster' at /domains/Roses/room/enclave at line 64
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_mage#837 at line 25
+'SetRace' at /domains/Roses/npc/class_master_mage#837 (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_mage#837 (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_mage#837 (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_thief (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Roses/room/eastgate_f2 at line 56
+'findClassMaster' at /domains/Roses/room/eastgate_f2 at line 83
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_thief at line 95
+'SetRace' at /domains/Roses/npc/class_master_thief (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_thief (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_thief (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_thief#894 (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+'create' at /domains/Roses/room/eastgate_f2 at line 56
+'findClassMaster' at /domains/Roses/room/eastgate_f2 at line 83
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_thief#894 at line 95
+'SetRace' at /domains/Roses/npc/class_master_thief#894 (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_thief#894 (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_thief#894 (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_monk (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Roses/room/courtyard at line 56
+'findClassMaster' at /domains/Roses/room/courtyard at line 74
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_monk at line 25
+'SetRace' at /domains/Roses/npc/class_master_monk (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_monk (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_monk (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_monk#925 (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+'create' at /domains/Roses/room/courtyard at line 56
+'findClassMaster' at /domains/Roses/room/courtyard at line 74
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_monk#925 at line 25
+'SetRace' at /domains/Roses/npc/class_master_monk#925 (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_monk#925 (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_monk#925 (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Roses/room/clergy at line 41
+'findClassMaster' at /domains/Roses/room/clergy at line 115
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_cleric at line 96
+'SetRace' at /domains/Roses/npc/class_master_cleric (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_cleric#944 (/lib/race.c) at line 275
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+'create' at /domains/Roses/room/clergy at line 41
+'findClassMaster' at /domains/Roses/room/clergy at line 115
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_cleric#944 at line 96
+'SetRace' at /domains/Roses/npc/class_master_cleric#944 (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_cleric#944 (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_cleric#944 (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Error in loading object '/domains/Addell/etc/portal_in'
+Object: /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 27
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Roses/room/arsportalis at line 30
+'SetInventory' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2015.06.21-16.31,25
+*Error in loading object '/domains/Addell/etc/portal_in'
+Object: /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 27
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+'create' at /domains/Roses/room/arsportalis at line 30
+'SetInventory' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*amphibian: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*android: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*ape: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*arachnid: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*artrell: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*avidryl: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*balrog: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*bat: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*bear: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*bird: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*blob: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*bot: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*bugbear: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*cat: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*centaur: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*chimera: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*cow: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*deer: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*demi-god: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*demon: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*dog: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*dragon: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*dryad: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*dummy: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*dwarf: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*elemental: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*elephant: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*elf: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*faerie: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*fish: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*gargoyle: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*giant: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*gnoll: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*gnome: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*goblin: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*god: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*golem: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*griffin: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*half-elf: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*half-orc: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*halfling: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*hobbit: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*horse: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*human: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*insect: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*isopod: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*kender: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*klingon: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*kobold: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*lizard: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*mech: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*Error in loading object '/daemon/tmp/ELEM_DAMAGE'
+Object: /daemon/races at line 475
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 304
+'GetResistance' at /daemon/races at line 475
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*nymph: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*ogre: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*orc: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*pegasus: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*pig: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*plant: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*poleepkwa: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*primate: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*replicant: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*rodent: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*satyr: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*sheep: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*slug: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*snake: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*strider: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*tortoise: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*tree: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*troll: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*unicorn: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*vehicle: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*viper: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*Error in loading object '/daemon/tmp/ELEM_DAMAGE'
+Object: /daemon/races at line 475
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 304
+'GetResistance' at /daemon/races at line 475
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*vulcan: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,26
+*wraith: Race already exists
+Object: /daemon/races at line 280
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 280
+
+--- Forgotten-Gods
+2015.06.21-16.37,45
+*Error in loading object '/daemon/tmp/ELEM_DAMAGE'
+Object: /daemon/races at line 475
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 304
+'GetResistance' at /daemon/races at line 475
+
+--- Forgotten-Gods
+2015.06.21-16.37,45
+*Error in loading object '/daemon/tmp/ELEM_DAMAGE'
+Object: /daemon/races at line 475
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/addraces at line 12
+'CATCH' at /secure/cmds/admins/addraces at line 12
+'AddRace' at /daemon/races at line 304
+'GetResistance' at /daemon/races at line 475
+
+--- Forgotten-Gods
+2015.06.21-16.56,20
+*Error in loading object '/domains/Addell/etc/portal_in'
+Object: /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 27
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+'create' at /domains/Roses/room/arsportalis at line 30
+'SetInventory' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Roses/room/arsportalis (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleShirt'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleShirt'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleHosen'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleHosen'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleGloveR'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleGloveR'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleGloveL'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleGloveL'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleBootR'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleBootR'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleBootL'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-17.10,54
+*Error in loading object '/domains/Roses/armor/SimpleBootL'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleShirt'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleShirt'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleHosen'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleHosen'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleGloveR'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleGloveR'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleGloveL'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleGloveL'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleBootR'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleBootR'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleBootL'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-18.11,57
+*Error in loading object '/domains/Roses/armor/SimpleBootL'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-18.21,38
+*Error in loading object '/lib/props/materials'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2015.06.21-18.24,42
+*Error in loading object '/domains/Roses/armor/SimpleBootL'
+Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+
+--- Forgotten-Gods
+2015.06.21-18.24,42
+*Error in loading object '/domains/Roses/armor/SimpleBootL'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+END-OF-LOG

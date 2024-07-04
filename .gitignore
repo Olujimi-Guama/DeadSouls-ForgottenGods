@@ -1,0 +1,8 @@
+# Ignoring all files and directories other than ../lib
+
+fluffos-2.23-ds03/
+lib/daemon/tmp/
+lib/save/
+lib/secure/
+lib/tmp/
+lib/www/mudlist
