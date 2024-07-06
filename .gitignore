@@ -1,6 +1,7 @@
 # Ignoring all files and directories other than ../lib
 
 fluffos-2.23-ds03/
+bin/scribe/backupDefs.sh
 lib/daemon/tmp/
 lib/save/
 lib/secure/

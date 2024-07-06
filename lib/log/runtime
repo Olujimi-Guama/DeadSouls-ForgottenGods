@@ -1,6 +1,18 @@
 ----------------------------------------------------------------------------
-Forgotten-Gods (FluffOS v2.23-ds03) starting up on Linux - Thu Jul  4 11:55:43 2024
+Forgotten-Gods (FluffOS v2.23-ds03) starting up on Linux - Fri Jul  5 19:23:09 2024
 
 
 
 Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 6690.
+
+Running autoexec, please wait...
+Autoexec daemon run complete. (57ms)
+
+CPU time in boot: 0.72 seconds. (Performance score: Very good.)
+
+******** FATAL ERROR: Process terminated
+FluffOS driver attempting to exit gracefully.
+crash() in master called successfully.  Aborting.

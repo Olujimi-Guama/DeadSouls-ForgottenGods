@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Mud name to be used for directory/archive names..
+BACKUP_MUD="MUD-NAME"
+
+# Directory  where archives to be stored. Do not store within mud root 
+BACKUP_DIR="/absolute/path/to/archive/root"
+
+# Directory containing mud bin and lib directories.
+BACKUP_SRC="/srv/mud"
+
+# How many days before cleaning up older incremental backups
+BACKUP_EXP=120

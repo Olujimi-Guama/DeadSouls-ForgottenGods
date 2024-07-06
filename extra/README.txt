@@ -13,3 +13,7 @@ Extras directory
 - wolfpaw/ has some includes and stuff that are necessary to
   run in one of the servers provided by Wolfpaw. If you're not
   a customer of theirs, disregard that stuff.
+
+- DSMud-mudname.service used to launch the mud startmud.sh script to 
+  work with a systemctl system. See provided file for details on 
+  setting this up.
