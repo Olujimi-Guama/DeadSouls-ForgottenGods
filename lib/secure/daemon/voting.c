@@ -279,3 +279,4 @@ mixed GetTest() {
         this_player()->eventPrint( sClass + " : " + mapCouncil[sClass] );
     return 1;
 }
+

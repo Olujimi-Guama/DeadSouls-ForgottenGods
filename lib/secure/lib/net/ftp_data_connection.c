@@ -226,3 +226,4 @@ static void eventSocketError(string str, int x) {
         log_file(LogFile, ctime(time()) + " - " + str + " (" + socket_error(x)
             + ")\n");
 }
+

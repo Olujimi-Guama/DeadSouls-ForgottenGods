@@ -10,7 +10,7 @@
 
 # A script to perform incremental backups using rsync
 
-source backupDefs.sh
+source /mnt/udir/blackbox-srv-dirs/mud/DeadSouls-ForgottenGods/bin/scribe/backupDefs.sh
 
 set -o errexit
 set -o nounset

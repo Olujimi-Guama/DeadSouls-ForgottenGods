@@ -1,8 +1,16 @@
-2015.06.21-16.26,04 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined function evironment
-2015.06.21-16.26,04 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined function file
-2015.06.21-16.26,25 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined function file
-2022.01.02-15.35,36 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: syntax error
-2022.01.02-15.36,23 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: syntax error
-2022.01.02-15.37,57 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: syntax error
-2022.01.02-16.36,21 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Left argument of -> is not a class
-2022.01.02-16.36,21 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: syntax error
+2024.07.14-08.58,38 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'here'
+2024.07.14-09.32,08 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'STARTROOM'
+2024.07.14-09.32,24 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'START_ROOm'
+2024.07.14-09.32,28 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'START_ROOM'
+2024.07.16-14.38,36 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: syntax error
+2024.07.16-14.39,52 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'portal'
+2024.07.16-17.22,31 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'LIB_OBJ'
+2024.07.16-17.23,05 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'LIB_OBJE'
+2024.07.19-05.46,13 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'l_bait_h'
+2024.07.19-14.07,31 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'l_bait_h'
+2024.07.19-20.07,11 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined variable 'TO'
+2024.07.19-20.07,23 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: syntax error
+2024.07.20-14.08,36 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Undefined function this_plater
+2024.07.20-14.09,04 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Too few arguments to present
+2024.07.20-14.10,13 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: syntax error
+2024.07.20-14.10,13 /secure/tmp/elohim_CMD_EVAL_TMP_FILE.c line 29: Single '#' in identifier -- use '##' for token pasting

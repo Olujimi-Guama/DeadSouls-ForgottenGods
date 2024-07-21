@@ -1,6 +1,5 @@
 #ifndef s_dirs_h
 #define s_dirs_h
-
 #define DIR_SECURE              "/secure"
 #define DIR_SECURE_CFG	        DIR_SECURE "/cfg"
 #define DIR_DATA                DIR_SECURE "/save"
@@ -21,14 +20,12 @@
 #define DIR_SECURE_CREATOR_VERBS  DIR_SECURE_VERBS "/creators"
 #define DIR_VOTES               DIR_DATA "/votes"
 #define DIR_GOSSIP              DIR_DATA "/gossip"
-
 #define DIR_POWERS              "/powers"
 #define DIR_SPELLS              DIR_POWERS "/spells"
 #define DIR_FEATS               DIR_POWERS "/feats"
 #define DIR_PRAYERS             DIR_POWERS "/prayers"
 #define DIR_PSIONICS            DIR_POWERS "/psionics"
 #define DIR_TRADES              DIR_POWERS "/trades"
-
 #define DIR_VERBS               "/verbs"
 #define DIR_ADMIN_VERBS         DIR_VERBS "/admins"
 #define DIR_BUILDER_VERBS       DIR_VERBS "/builders"
@@ -39,13 +36,10 @@
 #define DIR_ROOM_VERBS          DIR_VERBS "/rooms"
 #define DIR_SPELL_VERBS         DIR_VERBS "/spells"
 #define DIR_UNDEAD_VERBS        DIR_VERBS "/undead"
-
 #define DIR_CFG                 "/cfg"
-
 #define DIR_DAEMONS             "/daemon"
 #define DIR_DAEMONS_DATA        DIR_DAEMONS "/db"
 #define DIR_SOUL_FILES          DIR_DAEMONS "/soul"
-
 #define DIR_LIB                 "/lib"
 #define DIR_COMP                DIR_LIB "/comp"
 #define DIR_EVENTS              DIR_LIB "/events"
@@ -55,10 +49,8 @@
 #define DIR_OLD_STD             "/std"
 #define DIR_USER                DIR_LIB "/user"
 #define DIR_VIRT                DIR_LIB "/virtual"
-
 #define DIR_SECURE_LIB          DIR_SECURE "/lib"
 #define DIR_SSTD                DIR_SECURE_LIB "/std"
-
 #define DIR_LOGS                "/log"
 #define DIR_SECURE_LOGS         DIR_SECURE "/log"
 #define DIR_SECURE_INTERMUD_LOGS DIR_SECURE_LOGS "/intermud"
@@ -70,9 +62,7 @@
 #define DIR_PERSONAL_LOGS       DIR_LOGS "/personal"
 #define DIR_REPORTS_LOGS        DIR_LOGS "/reports"
 #define DIR_WATCH_LOGS          DIR_LOGS "/watch"
-
 #define DIR_OBJ                 "/obj"
-
 #define DIR_DOCS                "/doc"
 #define DIR_FAQS                DIR_DOCS "/faq"
 #define DIR_HELP                DIR_DOCS "/help"
@@ -88,7 +78,6 @@
 #define DIR_RACE_HELP           DIR_HELP "/races"
 #define DIR_RELIGION_HELP       DIR_HELP "/religion"
 #define DIR_LIBRARY             DIR_DOCS "/library"
-
 #define DIR_CMDS                "/cmds"
 #define DIR_SECURE_CMDS         "/secure/cmds"
 #define DIR_ADMIN_CMDS          DIR_CMDS "/admins"
@@ -103,9 +92,7 @@
 #define DIR_HM_CMDS             DIR_CMDS "/hm"
 #define DIR_PLAYER_CMDS         DIR_CMDS "/players"
 #define DIR_SECURE_PLAYER_CMDS  DIR_SECURE_CMDS "/players"
-
 #define DIR_FTP                "/ftp"
-
 #define DIR_WWW                "/www"
 #define DIR_WWW_DOCS           DIR_WWW "/doc"
 #define DIR_WWW_EFUNS          DIR_WWW_DOCS "/efun"
@@ -113,30 +100,20 @@
 #define DIR_WWW_ERRORS         DIR_WWW "/errors"
 #define DIR_WWW_GATEWAYS       DIR_WWW "/cgi"
 #define DIR_CGI                DIR_WWW_GATEWAYS
-
 #define DIR_UNDEAD_CMDS         DIR_CMDS "/undead"
-
 #define REALMS_DIRS             "/realms"
-
 #define DOMAINS_DIRS            "/domains"
-#define DIR_STANDARD_DOMAIN     DOMAINS_DIRS "/default"
-
+#define DIR_STANDARD_DOMAIN       "/domains/Roses"
 #define ESTATES_DIRS            "/estates"
-
 #define DIR_NEWS                "/news"
-
 #define DIR_SAVE                "/save"
 #define DIR_KILLS               DIR_SAVE "/kills"
-
 #define DIR_SHADOWS             "/shadows"
-
 #define DIR_SECURE_TMP          DIR_SECURE "/tmp"
 #define DIR_TMP_SECURE          DIR_SECURE "/tmp"
 #define DIR_TMP                 "/tmp"
 #define TMP_DIR                 "/tmp"
-
 #define DIR_UPGRADES             DIR_SECURE "/upgrades"
 #define DIR_UPGRADES_FILES       DIR_UPGRADES "/files"
 #define DIR_UPGRADES_TXT         DIR_UPGRADES "/txt"
-
 #endif /* s_dirs_h */

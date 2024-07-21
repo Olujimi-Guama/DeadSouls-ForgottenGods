@@ -18,3 +18,4 @@ int CanGet(object who){
         return surface::CanGet(who);
     else return 0;
 }
+

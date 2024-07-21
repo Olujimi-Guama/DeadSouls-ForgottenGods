@@ -1,5 +1,3 @@
-Vary: Accept-Encoding
-
 The first thing to do is to pick a decent character. The best
 all-around choice for a beginner is a human mage, so for the
 purposes of these cheat sheets, pick human when you create your character.
@@ -111,4 +109,5 @@ in the forest, and you have completed your very first quest. That was
 easy, right? You might even have automatically advanced a level or
 two. Congratulations! The next quest will be harder, and it is the Orc
 Slayer quest.
+
 

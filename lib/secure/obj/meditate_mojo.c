@@ -82,3 +82,4 @@ int eventDispel(){
 
 mixed CanGet(object ob) { return " ";}
 mixed CanDrop(object ob) { return " ";}
+

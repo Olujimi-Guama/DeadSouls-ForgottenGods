@@ -3,7 +3,7 @@
 #define DEFAULT_PROMPT           "> "
 #define HOST_IP                  "127.0.0.1"
 #define MUD_STATUS               "mudlib development"
-#define ADMIN_EMAIL              "elohim@technocratia.com"
+#define ADMIN_EMAIL              "salvatore@technocratia.com"
 #define DEBUGGER                 "elohim"
 #define LOCAL_NEWS_PREFIX        "nm"
 #define MUD_IS_LOCKED            0
@@ -77,7 +77,7 @@
 #define LOG_REMOTE_CHANS         0
 #define LOG_LOCAL_CHANS          1
 #define ENABLE_CGI               0
-#define WWW_DIR_LIST             1
+#define WWW_DIR_LIST             0
 #define ENABLE_CREWEB            0
 #define F_TERMINAL_COLOR         1
 #define MAX_CALL_OUTS            750
@@ -96,4 +96,5 @@
 #define CED_DISABLED             1
 #define GUEST_ALLOWED            1
 #define PLAYER_INTERTELL_ALLOWED 0
+
 #endif /* s_config_h */

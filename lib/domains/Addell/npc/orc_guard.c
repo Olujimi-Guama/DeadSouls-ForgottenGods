@@ -11,12 +11,12 @@ static void create() {
     SetId(({"orc","guard"}));
     SetAdjectives(({"orcish"}));
     SetShort("orcish guard");    
-    SetLong(
+    SetCoreDesc(
       "You stumble upon what at first appears to be another "
-      "person lost in the cave until it looks up at you and "
+      "person lost in the cave until it looks up and "
       "bares its fangs at you. Although built somewhat like a "
-      "human "+sex+" you see something is grotesquely... "
-      "inhuman about this creature. "
+      "human "+(sex=="female"?"woman":"man")+" you see something "
+      "is grotesquely... inhuman about this creature. "
     );
     SetInventory(([
         WEAP+ "sword" : "wield sword",

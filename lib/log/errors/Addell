@@ -1,3 +1,39 @@
-2015.06.21-16.31,25 /domains/Addell/etc/portal_in.c line 11: Undefined variable 'ZONE_START'
-2015.06.21-16.31,25 /domains/Addell/etc/portal_in.c line 11: Undefined variable 'ZONE_START'
-2015.06.21-16.56,20 /domains/Addell/etc/portal_in.c line 11: Undefined variable 'ZONE_START'
+2024.07.14-11.04,27 /domains/Addell/etc/cave_orc.c line 189: Undefined function GetCoreDesc
+2024.07.14-14.36,33 /domains/Addell/etc/cave_orc.c line 189: Undefined function GetCoreDesc
+2024.07.16-14.21,13 /domains/Addell/etc/cave_orc.c line 189: Undefined function GetCoreDesc
+2024.07.18-03.13,59 /domains/Addell/etc/cave_orc.c line 189: Undefined function GetCoreDesc
+2024.07.19-20.27,47 /domains/Addell/room/chieftain.c line 14: syntax error
+2024.07.19-20.27,47 /domains/Addell/room/chieftain.c line 15: Undefined function this_environment
+2024.07.19-20.27,47 /domains/Addell/room/chieftain.c line 15: Illegal LHS
+2024.07.19-20.27,47 /domains/Addell/room/chieftain.c line 15: syntax error
+2024.07.19-20.27,47 /domains/Addell/room/chieftain.c line 21: Illegal LHS
+2024.07.19-20.27,47 /domains/Addell/room/chieftain.c line 23: syntax error
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 14: syntax error
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 15: Illegal LHS
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 15: syntax error
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 21: Illegal LHS
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 23: syntax error
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 14: syntax error
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 15: Illegal LHS
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 15: syntax error
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 21: Illegal LHS
+2024.07.19-20.28,40 /domains/Addell/room/chieftain.c line 23: syntax error
+2024.07.19-20.29,19 /domains/Addell/room/chieftain.c line 14: Undefined variable 'lever'
+2024.07.19-20.29,19 /domains/Addell/room/chieftain.c line 14: Illegal lvalue
+2024.07.19-20.29,19 /domains/Addell/room/chieftain.c line 14: Undefined variable 'lever'
+2024.07.19-20.29,19 /domains/Addell/room/chieftain.c line 14: Illegal lvalue
+2024.07.19-20.32,13 /domains/Addell/npc/cavetroll.c line 24: Undefined function SetCoreDesc
+2024.07.19-20.37,40 /domains/Addell/room/chieftain.c line 29: Undefined function AddItems
+2024.07.19-20.37,40 /domains/Addell/room/chieftain.c line 34: Undefined function RemoveItems
+2024.07.20-04.20,38 /domains/Addell/etc/cave_orc.c line 190: Undefined function GetCoreDesc
+2024.07.20-04.21,05 /domains/Addell/etc/cave_orc.c line 190: Undefined function GetCoreDesc
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 48: Undefined variable 'DoZone'
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 48: syntax error
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 60: Undefined variable 'ob'
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 60: Illegal LHS
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 60: syntax error
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 48: Undefined variable 'DoZone'
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 48: syntax error
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 60: Undefined variable 'ob'
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 60: Illegal LHS
+2024.07.20-13.51,31 /domains/Addell/room/_start.c line 60: syntax error

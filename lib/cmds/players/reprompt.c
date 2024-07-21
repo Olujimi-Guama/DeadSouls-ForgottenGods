@@ -23,3 +23,4 @@ string GetHelp() {
             "unless charmode is also enabled.\n"
             "See also: charmode, prompt, env");
 }
+

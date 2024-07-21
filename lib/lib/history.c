@@ -218,3 +218,4 @@ int SetMaxCommandHistSize(int i){
     SetHistorySize(i);
     return HistorySize;
 }
+

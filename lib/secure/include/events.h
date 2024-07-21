@@ -13,6 +13,7 @@
 #define LIB_CLIMB        DIR_EVENTS "/climb"
 #define LIB_CLOSE        DIR_EVENTS "/close"
 #define LIB_CONSULT      DIR_EVENTS "/consult"
+#define LIB_COREDESC     DIR_EVENTS "/coredesc"
 #define LIB_DESCRIBE     DIR_EVENTS "/describe"
 #define LIB_DIG          DIR_EVENTS "/dig"
 #define LIB_DIG_WITH     DIR_EVENTS "/dig_with"

@@ -94,3 +94,4 @@ mixed do_climb_up(object ob){
 mixed do_climb_down(object ob){
     return do_climb_word_obj("down", (ob || environment(this_player())));
 }
+

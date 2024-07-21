@@ -15,5 +15,6 @@
 
 #define TMPL  ETC "cave_room.c"
 #define ZONE_START  ROOM "_start.c"
+#define ZONE_OUT    "/domains/town/room/riverbank.c"
 
 #endif /* r_mydirs_h */

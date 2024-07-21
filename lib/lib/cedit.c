@@ -561,3 +561,4 @@ int GetCedmode(){
 static int rAnsi(string str){
     return 1;
 }
+

@@ -157,7 +157,6 @@
 /doc/lpc/etc
 /log/errors
 /domains/fort/weap
-/domains/town/virtual/oldsky1434921856
 /domains/amigara/amigara/vehicle
 /domains/Addell/npc
 /doc/applies/interactive

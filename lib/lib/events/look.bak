@@ -11,8 +11,6 @@
 #include <lib.h>
 #include <vision.h>
 
-inherit LIB_COREDESC;
-
 private mixed   ExternalDesc = 0;
 private int     Invisible    = 0;
 private static string  look_globalval;

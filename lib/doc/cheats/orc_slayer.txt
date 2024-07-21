@@ -1,5 +1,3 @@
-Vary: Accept-Encoding
-
 You should now be standing in the secret cave in the woods, having
 just completed the Cave Explorer I quest. Now things get complicated,
 because the next quest is Orc Slayer, and as a weak human there is
@@ -268,4 +266,5 @@ And now try out some of your new spells:
 
 cast whip
 cast buffer
+
 

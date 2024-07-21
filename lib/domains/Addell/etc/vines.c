@@ -18,7 +18,6 @@ static void create() {
     SetClimb( (: ClimbUp :), 1);
 }
 
-
 int ClimbUp(){
 
     string omsg,imsg,dest;

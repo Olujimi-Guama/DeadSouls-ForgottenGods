@@ -131,3 +131,4 @@ varargs mixed direct_jump_word_word_obj(mixed args...){
     }
     return CanJump(this_player(), id, type);
 }
+

@@ -83,3 +83,4 @@ varargs mixed direct_aim_obj_wrd(mixed args...){
 varargs mixed direct_aim_obj_wrd_at_wrd(mixed args...){
     return direct_aim_obj_at_obj(args...);
 }
+

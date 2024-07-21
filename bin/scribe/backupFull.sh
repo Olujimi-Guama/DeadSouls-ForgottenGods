@@ -7,7 +7,7 @@
 # archives them as full snapshots.
 
 
-source ./backupDefs.sh
+source /mnt/udir/blackbox-srv-dirs/mud/DeadSouls-ForgottenGods/bin/scribe/backupDefs.sh
 
 # Check if the source directory exists
 if [ ! -d "$BACKUP_DIR/latest" ]; then

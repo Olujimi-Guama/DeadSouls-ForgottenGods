@@ -18,13 +18,33 @@ void create() {
     SetAmbientLight(5);
     SetShort("underground passageway");
     SetLong(
-      "This is a dark underground passageway. The walls are rough "
-      "and bare. To the west the passage opens up into a cave-"
+      "You step into a dimly lit cave pass. The walls are rough and "
+      "uneven, covered in patches of slimy moss that glisten in the "
+      "faint light. Stalactites hang precariously from the ceiling, "
+      "dripping water into shallow, muddy puddles on the ground. The "
+      "floor is uneven and treacherous, littered with jagged rocks "
+      "and the occasional bone, hinting at the cave's grim "
+      "inhabitants. To the west the passage opens up into a cave-"
       "like area. The passageway continues northeast and east from "
       "here."
-    );
-    SetItems(([
-        ({ "passage", "passageway"}) : "This provides access "
+      );
+    SetSmell( ([
+      ({"default", "stench"}) : "The air is thick with the stench of "
+      "mildew and the earthy scent of damp soil.",
+      "mildew" : "",
+      ({"earthly scent", "scent", "damp soil", "soil"}) : ""
+      ]) );
+    SetListen( ([ 
+      ({"default", "symphony of sound", "sound", "cavern"}) : 
+      "You hear the guttural grunts of cave orcs and the clinking of "
+      "their crude weapons echoing through the cavern, creating an "
+      "unsettling symphony of sound.",
+      ({"gutteral grunts", "grunts", "grunt"}) : "",
+      ({"clinking", "clink", "crude weapons", "crude weapon", 
+      "weapons", "weapon", "echoing", "echo"}) : "",
+      ]) );
+    SetItems( ([
+        ({ "pass", "cave pass"}) : "This provides access "
         "to areas below the ground.",
         ({ "area", "cave like area", "cavelike area" }) : "It "
         "seems that to the west there is a n area like a cave "

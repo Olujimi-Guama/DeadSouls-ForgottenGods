@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------
-Forgotten-Gods (FluffOS v2.23-ds03) starting up on Linux - Fri Jul  5 19:23:09 2024
+Forgotten-Gods (FluffOS v2.23-ds03) starting up on Linux - Sun Jul 14 22:07:23 2024
 
 
 
@@ -9,10 +9,765 @@ Initializations complete.
 Accepting connections on port 6690.
 
 Running autoexec, please wait...
-Autoexec daemon run complete. (57ms)
+Autoexec daemon run complete. (78ms)
 
-CPU time in boot: 0.72 seconds. (Performance score: Very good.)
+CPU time in boot: 0.67 seconds. (Performance score: Very good.)
 
-******** FATAL ERROR: Process terminated
-FluffOS driver attempting to exit gracefully.
-crash() in master called successfully.  Aborting.
+/log/login
+*Error in loading object '/domains/Addell/etc/cave_orc'
+Object: /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /secure/lib/connect#182 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#182 at line 312
+'eventEnterGame' at /secure/lib/connect#182 at line 481
+'Setup' at /secure/save/creators/e/elohim (/lib/creator.c) at line 136
+'Setup' at /secure/save/creators/e/elohim (/lib/player.c) at line 317
+'Setup' at /secure/save/creators/e/elohim (/lib/interactive.c) at line 135
+'CATCH' at /secure/save/creators/e/elohim (/lib/interactive.c) at line 135
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Addell/room/_start at line 40
+'SetInventory' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 36
+'eventMove' at /domains/Addell/etc/portal_out#190 (/lib/std/item.c) at line 165
+'eventMove' at /domains/Addell/etc/portal_out#190 (/lib/props/move.c) at line 103
+'CanReceive' at /domains/Addell/room/_start at line 48
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Addell/room/cavepass1 at line 43
+'SetInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+--
+Too deep recursion.
+program: /domains/Addell/etc/cave_orc.c, object: /domains/Addell/npc/orc_guard#947, file: /domains/Addell/etc/cave_orc.c:189
+--- trace ---
+Object: /secure/save/creators/e/elohim, Program: <driver>
+   in <fake>() at 
+Object: /secure/save/creators/e/elohim, Program: /lib/command.c
+   in cmdAll() at /lib/command.c:210
+Object: /verbs/items/look, Program: /verbs/items/look.c
+   in do_look_obj() at /verbs/items/look.c:101
+Object: /verbs/items/look, Program: /verbs/items/look.c
+   in do_look_at_obj() at /verbs/items/look.c:114
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in eventShow() at /lib/npc.c:392
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/living.c
+   in eventShow() at /lib/living.c:525
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+'GetExternalDesc' in '/domains/Addell/etc/cave_orc.c' ('/domains/Addell/npc/orc_guard#947') /domains/Addell/etc/cave_orc.c:189
+--- end trace ---
+Too deep recursion.
+program: /domains/Addell/etc/cave_orc.c, object: /domains/Addell/npc/orc_guard#947, file: /domains/Addell/etc/cave_orc.c:189
+--- trace ---
+Object: /secure/save/creators/e/elohim, Program: <driver>
+   in <fake>() at 
+Object: /secure/save/creators/e/elohim, Program: /lib/command.c
+   in cmdAll() at /lib/command.c:210
+Object: /verbs/items/look, Program: /verbs/items/look.c
+   in do_look_obj() at /verbs/items/look.c:101
+Object: /verbs/items/look, Program: /verbs/items/look.c
+   in do_look_at_obj() at /verbs/items/look.c:114
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in eventShow() at /lib/npc.c:392
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/living.c
+   in eventShow() at /lib/living.c:525
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+Object: /domains/Addell/npc/orc_guard#947, Program: /domains/Addell/etc/cave_orc.c
+   in GetExternalDesc() at /domains/Addell/etc/cave_orc.c:189
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/npc.c
+   in GetLong() at /lib/npc.c:582
+Object: /domains/Addell/npc/orc_guard#947, Program: /lib/events/look.c
+   in GetLong() at /lib/events/look.c:180
+'GetExternalDesc' in '/domains/Addell/etc/cave_orc.c' ('/domains/Addell/npc/orc_guard#947') /domains/Addell/etc/cave_orc.c:189
+--- end trace ---
+
+Running autoexec, please wait...
+Autoexec daemon run complete. (65ms)
+
+ (Performance score: Excellent.)
+
+oincloth#1898 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /domains/Addell/armor/loincloth#1898 (/<driver>) at line 0
+'reset' at /domains/Addell/armor/loincloth#1898 (/lib/props/inventory.c) at line 108
+'eventLoadInventory' at /domains/Addell/armor/loincloth#1898 (/lib/comp/holder.c) at line 78
+'eventLoadInventory' at /domains/Addell/armor/loincloth#1898 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/armor/loincloth#1898 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-14.19,30
+*call_other() couldn't find object
+Object: /domains/Addell/armor/loincloth#1907 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /domains/Addell/armor/loincloth#1907 (/<driver>) at line 0
+'reset' at /domains/Addell/armor/loincloth#1907 (/lib/props/inventory.c) at line 108
+'eventLoadInventory' at /domains/Addell/armor/loincloth#1907 (/lib/comp/holder.c) at line 78
+'eventLoadInventory' at /domains/Addell/armor/loincloth#1907 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/armor/loincloth#1907 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-14.19,30
+*call_other() couldn't find object
+Object: /domains/Addell/armor/loincloth#1917 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /domains/Addell/armor/loincloth#1917 (/<driver>) at line 0
+'reset' at /domains/Addell/armor/loincloth#1917 (/lib/props/inventory.c) at line 108
+'eventLoadInventory' at /domains/Addell/armor/loincloth#1917 (/lib/comp/holder.c) at line 78
+'eventLoadInventory' at /domains/Addell/armor/loincloth#1917 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/armor/loincloth#1917 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-14.25,32
+*call_other() couldn't find object
+Object: /domains/Addell/armor/loincloth#3000 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /domains/Addell/armor/loincloth#3000 (/<driver>) at line 0
+'reset' at /domains/Addell/armor/loincloth#3000 (/lib/props/inventory.c) at line 108
+'eventLoadInventory' at /domains/Addell/armor/loincloth#3000 (/lib/comp/holder.c) at line 78
+'eventLoadInventory' at /domains/Addell/armor/loincloth#3000 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/armor/loincloth#3000 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-14.25,32
+*call_other() couldn't find object
+Object: /domains/Addell/armor/loincloth#3010 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /domains/Addell/armor/loincloth#3010 (/<driver>) at line 0
+'reset' at /domains/Addell/armor/loincloth#3010 (/lib/props/inventory.c) at line 108
+'eventLoadInventory' at /domains/Addell/armor/loincloth#3010 (/lib/comp/holder.c) at line 78
+'eventLoadInventory' at /domains/Addell/armor/loincloth#3010 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/armor/loincloth#3010 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-14.31,33
+*call_other() couldn't find object
+Object: /domains/Addell/armor/loincloth#3960 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /domains/Addell/armor/loincloth#3960 (/<driver>) at line 0
+'reset' at /domains/Addell/armor/loincloth#3960 (/lib/props/inventory.c) at line 108
+'eventLoadInventory' at /domains/Addell/armor/loincloth#3960 (/lib/comp/holder.c) at line 78
+'eventLoadInventory' at /domains/Addell/armor/loincloth#3960 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/armor/loincloth#3960 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-14.31,33
+*call_other() couldn't find object
+Object: /domains/Addell/armor/loincloth#3970 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /domains/Addell/armor/loincloth#3970 (/<driver>) at line 0
+'reset' at /domains/Addell/armor/loincloth#3970 (/lib/props/inventory.c) at line 108
+'eventLoadInventory' at /domains/Addell/armor/loincloth#3970 (/lib/comp/holder.c) at line 78
+'eventLoadInventory' at /domains/Addell/armor/loincloth#3970 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/armor/loincloth#3970 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-20.07,11
+*Error in loading object '/secure/tmp/elohim_CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 79
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/eval at line 79
+
+--- Forgotten-Gods
+2024.07.19-20.07,23
+*Error in loading object '/secure/tmp/elohim_CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 79
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/eval at line 79
+
+--- Forgotten-Gods
+2024.07.20-14.08,36
+*Error in loading object '/secure/tmp/elohim_CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 79
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/eval at line 79
+
+--- Forgotten-Gods
+2024.07.20-14.09,04
+*Error in loading object '/secure/tmp/elohim_CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 79
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/eval at line 79
+
+--- Forgotten-Gods
+2024.07.20-14.10,13
+*Error in loading object '/secure/tmp/elohim_CMD_EVAL_TMP_FILE'
+Object: /secure/cmds/creators/eval at line 79
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/eval at line 79

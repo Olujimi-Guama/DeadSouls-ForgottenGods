@@ -1,228 +1,877 @@
-NEW_LOG 2017.03.07-18.25,59
 
 --- Forgotten-Gods
-2021.06.19-22.47,38
-*Could not open /domains/campus/save/charles.o.tmp for a save.
-Object: /domains/campus/npc/charles#1485 (/<driver>) at line 0
-
-'heart_beat' at /domains/campus/npc/charles#1485 (/domains/campus/npc/monty.c) at line 209
-'eventBeginPlay' at /domains/campus/npc/charles#1485 (/domains/campus/npc/monty.c) at line 68
-'SaveObject' at /domains/campus/npc/charles#1485 (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /domains/campus/npc/charles#1485 (/<driver>) at line 0
-
---- Forgotten-Gods
-2021.06.19-22.47,38
-*Could not open /domains/campus/save/charly.o.tmp for a save.
-Object: /domains/campus/npc/charly#1492 (/<driver>) at line 0
-
-'heart_beat' at /domains/campus/npc/charly#1492 (/domains/campus/npc/monty.c) at line 209
-'eventBeginPlay' at /domains/campus/npc/charly#1492 (/domains/campus/npc/monty.c) at line 68
-'SaveObject' at /domains/campus/npc/charly#1492 (/lib/props/save.c) at line 41
-'unguarded' at /secure/sefun/sefun at /secure/sefun/security.c:104
-'apply_unguarded' at /secure/daemon/master at line 606
-'CATCH' at /secure/daemon/master at line 606
-'<fake>' at /domains/campus/npc/charly#1492 (/<driver>) at line 0
-
---- Forgotten-Gods
-2021.06.19-22.48,26
-*say() makes no sense with no this_player()
-Object: /secure/sefun/sefun at /secure/sefun/communications.c:14
-
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 146
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'create' at /domains/town/virtual/forest/-13,13 at line 74
-'SetInventory' at /domains/town/virtual/forest/-13,13 (/lib/props/inventory.c) at line 101
-'eventLoadInventory' at /domains/town/virtual/forest/-13,13 (/lib/props/inventory.c) at line 58
-'eventLoadItem' at /domains/town/virtual/forest/-13,13 (/lib/props/inventory.c) at line 36
-'eventMove' at /domains/town/npc/nymph#2005 (/lib/npc.c) at line 309
-'eventCompleteMove' at /domains/town/npc/nymph#2005 (/lib/npc.c) at line 213
-'eventMove' at /domains/town/npc/nymph#2005 (/lib/props/move.c) at line 176
-'eventSwim' at /domains/town/npc/nymph#2005 (/lib/lvs/position.c) at line 154
-'say' at /secure/sefun/sefun at /secure/sefun/communications.c:14
-
---- Forgotten-Gods
-2021.06.19-22.48,50
+2024.07.14-08.25,57
 *call_other() couldn't find object
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 146
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
+'<fake>' at /secure/lib/connect#88 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#88 at line 312
+'eventEnterGame' at /secure/lib/connect#88 at line 481
+'Setup' at /secure/save/creators/e/elohim (/lib/creator.c) at line 136
+'Setup' at /secure/save/creators/e/elohim (/lib/player.c) at line 317
+'Setup' at /secure/save/creators/e/elohim (/lib/interactive.c) at line 135
+'CATCH' at /secure/save/creators/e/elohim (/lib/interactive.c) at line 135
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Forgotten-Gods
-2021.06.19-22.54,52
+2024.07.14-11.04,27
 *call_other() couldn't find object
+Object: /domains/default/npc/drone3#577 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#476 at line 111
+'eventSpawn' at /domains/default/npc/drone3#476 at line 103
+'CATCH' at /domains/default/npc/drone3#476 at line 103
+'eventMove' at /domains/default/npc/drone3#577 at line 58
+'eventMove' at /domains/default/npc/drone3#577 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#577 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#577 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#577 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#592 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#492 at line 111
+'eventSpawn' at /domains/default/npc/drone3#492 at line 103
+'CATCH' at /domains/default/npc/drone3#492 at line 103
+'eventMove' at /domains/default/npc/drone3#592 at line 58
+'eventMove' at /domains/default/npc/drone3#592 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#592 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#592 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#592 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#593 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#493 at line 111
+'eventSpawn' at /domains/default/npc/drone3#493 at line 103
+'CATCH' at /domains/default/npc/drone3#493 at line 103
+'eventMove' at /domains/default/npc/drone3#593 at line 58
+'eventMove' at /domains/default/npc/drone3#593 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#593 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#593 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#593 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#594 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#494 at line 111
+'eventSpawn' at /domains/default/npc/drone3#494 at line 103
+'CATCH' at /domains/default/npc/drone3#494 at line 103
+'eventMove' at /domains/default/npc/drone3#594 at line 58
+'eventMove' at /domains/default/npc/drone3#594 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#594 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#594 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#594 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*Error in loading object '/domains/Addell/etc/cave_orc'
+Object: /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+'heart_beat' at /domains/default/npc/drone3#502 at line 111
+'eventSpawn' at /domains/default/npc/drone3#502 at line 103
+'CATCH' at /domains/default/npc/drone3#502 at line 103
+'eventMove' at /domains/default/npc/drone3#595 at line 58
+'eventMove' at /domains/default/npc/drone3#595 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#595 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#595 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#595 (/lib/props/move.c) at line 88
+'create' at /domains/Addell/room/cavepass1 at line 43
+'SetInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#601 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#502 at line 111
+'eventSpawn' at /domains/default/npc/drone3#502 at line 103
+'CATCH' at /domains/default/npc/drone3#502 at line 103
+'eventMove' at /domains/default/npc/drone3#601 at line 58
+'eventMove' at /domains/default/npc/drone3#601 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#601 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#601 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#601 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#631 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#510 at line 111
+'eventSpawn' at /domains/default/npc/drone3#510 at line 103
+'CATCH' at /domains/default/npc/drone3#510 at line 103
+'eventMove' at /domains/default/npc/drone3#631 at line 58
+'eventMove' at /domains/default/npc/drone3#631 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#631 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#631 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#631 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#659 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#519 at line 111
+'eventSpawn' at /domains/default/npc/drone3#519 at line 103
+'CATCH' at /domains/default/npc/drone3#519 at line 103
+'eventMove' at /domains/default/npc/drone3#659 at line 58
+'eventMove' at /domains/default/npc/drone3#659 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#659 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#659 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#659 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#694 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#532 at line 111
+'eventSpawn' at /domains/default/npc/drone3#532 at line 103
+'CATCH' at /domains/default/npc/drone3#532 at line 103
+'eventMove' at /domains/default/npc/drone3#694 at line 58
+'eventMove' at /domains/default/npc/drone3#694 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#694 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#694 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#694 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#695 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#533 at line 111
+'eventSpawn' at /domains/default/npc/drone3#533 at line 103
+'CATCH' at /domains/default/npc/drone3#533 at line 103
+'eventMove' at /domains/default/npc/drone3#695 at line 58
+'eventMove' at /domains/default/npc/drone3#695 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#695 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#695 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#695 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#700 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#540 at line 111
+'eventSpawn' at /domains/default/npc/drone3#540 at line 103
+'CATCH' at /domains/default/npc/drone3#540 at line 103
+'eventMove' at /domains/default/npc/drone3#700 at line 58
+'eventMove' at /domains/default/npc/drone3#700 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#700 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#700 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#700 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#705 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#545 at line 111
+'eventSpawn' at /domains/default/npc/drone3#545 at line 103
+'CATCH' at /domains/default/npc/drone3#545 at line 103
+'eventMove' at /domains/default/npc/drone3#705 at line 58
+'eventMove' at /domains/default/npc/drone3#705 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#705 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#705 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#705 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.04,47
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 275
+
+'heart_beat' at /domains/default/npc/drone3#946 at line 111
+'eventSpawn' at /domains/default/npc/drone3#946 at line 103
+'CATCH' at /domains/default/npc/drone3#946 at line 103
+'eventMove' at /domains/default/npc/drone3#1439 at line 58
+'eventMove' at /domains/default/npc/drone3#1439 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#1439 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#1439 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#1439 (/lib/props/move.c) at line 88
+'create' at /domains/Roses/room/legionpost at line 33
+'findClassMaster' at /domains/Roses/room/legionpost at line 59
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_fighter at line 27
+'SetRace' at /domains/Roses/npc/class_master_fighter (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2024.07.14-11.04,57
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_mage (/lib/race.c) at line 275
+
+'heart_beat' at /domains/default/npc/drone3#1381 at line 111
+'eventSpawn' at /domains/default/npc/drone3#1381 at line 103
+'CATCH' at /domains/default/npc/drone3#1381 at line 103
+'eventMove' at /domains/default/npc/drone3#1824 at line 58
+'eventMove' at /domains/default/npc/drone3#1824 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#1824 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#1824 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#1824 (/lib/props/move.c) at line 88
+'create' at /domains/Roses/room/enclave at line 42
+'findClassMaster' at /domains/Roses/room/enclave at line 64
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_mage at line 25
+'SetRace' at /domains/Roses/npc/class_master_mage (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_mage (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_mage (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2024.07.14-11.05,17
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 275
+
+'heart_beat' at /domains/default/npc/drone3#2366 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2366 at line 103
+'CATCH' at /domains/default/npc/drone3#2366 at line 103
+'eventMove' at /domains/default/npc/drone3#2600 at line 58
+'eventMove' at /domains/default/npc/drone3#2600 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#2600 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#2600 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#2600 (/lib/props/move.c) at line 88
+'create' at /domains/Roses/room/clergy at line 41
+'findClassMaster' at /domains/Roses/room/clergy at line 115
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_cleric at line 96
+'SetRace' at /domains/Roses/npc/class_master_cleric (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2024.07.14-11.05,17
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_monk (/lib/race.c) at line 275
+
+'heart_beat' at /domains/default/npc/drone3#2366 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2366 at line 103
+'CATCH' at /domains/default/npc/drone3#2366 at line 103
+'eventMove' at /domains/default/npc/drone3#2610 at line 58
+'eventMove' at /domains/default/npc/drone3#2610 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#2610 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#2610 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#2610 (/lib/props/move.c) at line 88
+'create' at /domains/Roses/room/courtyard at line 56
+'findClassMaster' at /domains/Roses/room/courtyard at line 74
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_monk at line 25
+'SetRace' at /domains/Roses/npc/class_master_monk (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_monk (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_monk (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2024.07.14-11.05,27
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#2727 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#2535 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2535 at line 103
+'CATCH' at /domains/default/npc/drone3#2535 at line 103
+'eventMove' at /domains/default/npc/drone3#2727 at line 58
+'eventMove' at /domains/default/npc/drone3#2727 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#2727 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#2727 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#2727 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.05,37
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#3004 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#2702 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2702 at line 103
+'CATCH' at /domains/default/npc/drone3#2702 at line 103
+'eventMove' at /domains/default/npc/drone3#3004 at line 58
+'eventMove' at /domains/default/npc/drone3#3004 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#3004 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#3004 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#3004 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-11.05,57
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#3396 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#3134 at line 111
+'eventSpawn' at /domains/default/npc/drone3#3134 at line 103
+'CATCH' at /domains/default/npc/drone3#3134 at line 103
+'eventMove' at /domains/default/npc/drone3#3396 at line 58
+'eventMove' at /domains/default/npc/drone3#3396 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#3396 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#3396 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#3396 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.31,42
+*Array index out of bounds.
+Object: /domains/Roses/virtual/server at line 15
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/admins/gridconfig at line 84
+'findit' at /secure/cmds/admins/gridconfig at line 26
+'CATCH' at /secure/cmds/admins/gridconfig at line 26
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'compile_object' at /secure/daemon/master at line 489
+'compile_object' at /domains/Roses/virtual/server at line 15
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#327 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#234 at line 111
+'eventSpawn' at /domains/default/npc/drone3#234 at line 103
+'CATCH' at /domains/default/npc/drone3#234 at line 103
+'eventMove' at /domains/default/npc/drone3#327 at line 58
+'eventMove' at /domains/default/npc/drone3#327 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#327 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#327 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#327 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#342 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#250 at line 111
+'eventSpawn' at /domains/default/npc/drone3#250 at line 103
+'CATCH' at /domains/default/npc/drone3#250 at line 103
+'eventMove' at /domains/default/npc/drone3#342 at line 58
+'eventMove' at /domains/default/npc/drone3#342 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#342 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#342 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#342 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#343 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#251 at line 111
+'eventSpawn' at /domains/default/npc/drone3#251 at line 103
+'CATCH' at /domains/default/npc/drone3#251 at line 103
+'eventMove' at /domains/default/npc/drone3#343 at line 58
+'eventMove' at /domains/default/npc/drone3#343 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#343 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#343 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#343 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#344 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#252 at line 111
+'eventSpawn' at /domains/default/npc/drone3#252 at line 103
+'CATCH' at /domains/default/npc/drone3#252 at line 103
+'eventMove' at /domains/default/npc/drone3#344 at line 58
+'eventMove' at /domains/default/npc/drone3#344 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#344 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#344 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#344 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*Error in loading object '/domains/Addell/etc/cave_orc'
+Object: /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+'heart_beat' at /domains/default/npc/drone3#260 at line 111
+'eventSpawn' at /domains/default/npc/drone3#260 at line 103
+'CATCH' at /domains/default/npc/drone3#260 at line 103
+'eventMove' at /domains/default/npc/drone3#345 at line 58
+'eventMove' at /domains/default/npc/drone3#345 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#345 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#345 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#345 (/lib/props/move.c) at line 88
+'create' at /domains/Addell/room/cavepass1 at line 43
+'SetInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#351 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#260 at line 111
+'eventSpawn' at /domains/default/npc/drone3#260 at line 103
+'CATCH' at /domains/default/npc/drone3#260 at line 103
+'eventMove' at /domains/default/npc/drone3#351 at line 58
+'eventMove' at /domains/default/npc/drone3#351 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#351 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#351 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#351 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#381 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#268 at line 111
+'eventSpawn' at /domains/default/npc/drone3#268 at line 103
+'CATCH' at /domains/default/npc/drone3#268 at line 103
+'eventMove' at /domains/default/npc/drone3#381 at line 58
+'eventMove' at /domains/default/npc/drone3#381 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#381 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#381 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#381 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#409 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#276 at line 111
+'eventSpawn' at /domains/default/npc/drone3#276 at line 103
+'CATCH' at /domains/default/npc/drone3#276 at line 103
+'eventMove' at /domains/default/npc/drone3#409 at line 58
+'eventMove' at /domains/default/npc/drone3#409 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#409 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#409 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#409 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#426 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#290 at line 111
+'eventSpawn' at /domains/default/npc/drone3#290 at line 103
+'CATCH' at /domains/default/npc/drone3#290 at line 103
+'eventMove' at /domains/default/npc/drone3#426 at line 58
+'eventMove' at /domains/default/npc/drone3#426 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#426 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#426 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#426 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#427 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#291 at line 111
+'eventSpawn' at /domains/default/npc/drone3#291 at line 103
+'CATCH' at /domains/default/npc/drone3#291 at line 103
+'eventMove' at /domains/default/npc/drone3#427 at line 58
+'eventMove' at /domains/default/npc/drone3#427 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#427 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#427 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#427 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#432 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#298 at line 111
+'eventSpawn' at /domains/default/npc/drone3#298 at line 103
+'CATCH' at /domains/default/npc/drone3#298 at line 103
+'eventMove' at /domains/default/npc/drone3#432 at line 58
+'eventMove' at /domains/default/npc/drone3#432 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#432 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#432 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#432 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#437 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#303 at line 111
+'eventSpawn' at /domains/default/npc/drone3#303 at line 103
+'CATCH' at /domains/default/npc/drone3#303 at line 103
+'eventMove' at /domains/default/npc/drone3#437 at line 58
+'eventMove' at /domains/default/npc/drone3#437 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#437 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#437 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#437 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.36,53
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 275
+
+'heart_beat' at /domains/default/npc/drone3#667 at line 111
+'eventSpawn' at /domains/default/npc/drone3#667 at line 103
+'CATCH' at /domains/default/npc/drone3#667 at line 103
+'eventMove' at /domains/default/npc/drone3#1149 at line 58
+'eventMove' at /domains/default/npc/drone3#1149 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#1149 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#1149 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#1149 (/lib/props/move.c) at line 88
+'create' at /domains/Roses/room/legionpost at line 33
+'findClassMaster' at /domains/Roses/room/legionpost at line 59
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_fighter at line 27
+'SetRace' at /domains/Roses/npc/class_master_fighter (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_fighter (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2024.07.14-14.37,03
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_mage (/lib/race.c) at line 275
+
+'heart_beat' at /domains/default/npc/drone3#1091 at line 111
+'eventSpawn' at /domains/default/npc/drone3#1091 at line 103
+'CATCH' at /domains/default/npc/drone3#1091 at line 103
+'eventMove' at /domains/default/npc/drone3#1524 at line 58
+'eventMove' at /domains/default/npc/drone3#1524 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#1524 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#1524 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#1524 (/lib/props/move.c) at line 88
+'create' at /domains/Roses/room/enclave at line 42
+'findClassMaster' at /domains/Roses/room/enclave at line 64
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_mage at line 25
+'SetRace' at /domains/Roses/npc/class_master_mage (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_mage (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_mage (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2024.07.14-14.37,23
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 275
+
+'heart_beat' at /domains/default/npc/drone3#2058 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2058 at line 103
+'CATCH' at /domains/default/npc/drone3#2058 at line 103
+'eventMove' at /domains/default/npc/drone3#2285 at line 58
+'eventMove' at /domains/default/npc/drone3#2285 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#2285 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#2285 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#2285 (/lib/props/move.c) at line 88
+'create' at /domains/Roses/room/clergy at line 41
+'findClassMaster' at /domains/Roses/room/clergy at line 115
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_cleric at line 96
+'SetRace' at /domains/Roses/npc/class_master_cleric (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_cleric (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2024.07.14-14.37,23
+*Bad argument 2 to foreach
+Expected: array Got: 0.
+Object: /domains/Roses/npc/class_master_monk (/lib/race.c) at line 275
+
+'heart_beat' at /domains/default/npc/drone3#2058 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2058 at line 103
+'CATCH' at /domains/default/npc/drone3#2058 at line 103
+'eventMove' at /domains/default/npc/drone3#2295 at line 58
+'eventMove' at /domains/default/npc/drone3#2295 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#2295 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#2295 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#2295 (/lib/props/move.c) at line 88
+'create' at /domains/Roses/room/courtyard at line 56
+'findClassMaster' at /domains/Roses/room/courtyard at line 74
+'clone_object' at /secure/sefun/sefun at line 120
+'create' at /domains/Roses/npc/class_master_monk at line 25
+'SetRace' at /domains/Roses/npc/class_master_monk (/lib/npc.c) at line 419
+'SetRace' at /domains/Roses/npc/class_master_monk (/lib/race.c) at line 200
+'NewBody' at /domains/Roses/npc/class_master_monk (/lib/race.c) at line 275
+
+--- Forgotten-Gods
+2024.07.14-14.37,33
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#2403 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#2220 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2220 at line 103
+'CATCH' at /domains/default/npc/drone3#2220 at line 103
+'eventMove' at /domains/default/npc/drone3#2403 at line 58
+'eventMove' at /domains/default/npc/drone3#2403 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#2403 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#2403 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#2403 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.37,43
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#2676 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#2378 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2378 at line 103
+'CATCH' at /domains/default/npc/drone3#2378 at line 103
+'eventMove' at /domains/default/npc/drone3#2676 at line 58
+'eventMove' at /domains/default/npc/drone3#2676 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#2676 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#2676 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#2676 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.14-14.38,03
+*call_other() couldn't find object
+Object: /domains/default/npc/drone3#3064 (/lib/props/move.c) at line 88
+
+'heart_beat' at /domains/default/npc/drone3#2803 at line 111
+'eventSpawn' at /domains/default/npc/drone3#2803 at line 103
+'CATCH' at /domains/default/npc/drone3#2803 at line 103
+'eventMove' at /domains/default/npc/drone3#3064 at line 58
+'eventMove' at /domains/default/npc/drone3#3064 (/lib/npc.c) at line 309
+'eventCompleteMove' at /domains/default/npc/drone3#3064 (/lib/npc.c) at line 212
+'eventMove' at /domains/default/npc/drone3#3064 (/lib/props/move.c) at line 88
+'CATCH' at /domains/default/npc/drone3#3064 (/lib/props/move.c) at line 88
+
+--- Forgotten-Gods
+2024.07.16-14.21,13
+*Error in loading object '/domains/Addell/etc/cave_orc'
+Object: /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/goto at line 63
+'CATCH' at /secure/cmds/creators/goto at line 63
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Addell/room/_start at line 40
+'SetInventory' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 36
+'eventMove' at /domains/Addell/etc/portal_out#151 (/lib/std/item.c) at line 165
+'eventMove' at /domains/Addell/etc/portal_out#151 (/lib/props/move.c) at line 103
+'CanReceive' at /domains/Addell/room/_start at line 48
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Addell/room/cavepass1 at line 43
+'SetInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.18-03.13,59
+*Error in loading object '/domains/Addell/etc/cave_orc'
+Object: /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+'<fake>' at /secure/lib/connect#182 (/<driver>) at line 0
+'InputPassword' at /secure/lib/connect#182 at line 312
+'eventEnterGame' at /secure/lib/connect#182 at line 481
+'Setup' at /secure/save/creators/e/elohim (/lib/creator.c) at line 136
+'Setup' at /secure/save/creators/e/elohim (/lib/player.c) at line 317
+'Setup' at /secure/save/creators/e/elohim (/lib/interactive.c) at line 135
+'CATCH' at /secure/save/creators/e/elohim (/lib/interactive.c) at line 135
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Addell/room/_start at line 40
+'SetInventory' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/_start (/lib/props/inventory.c) at line 36
+'eventMove' at /domains/Addell/etc/portal_out#190 (/lib/std/item.c) at line 165
+'eventMove' at /domains/Addell/etc/portal_out#190 (/lib/props/move.c) at line 103
+'CanReceive' at /domains/Addell/room/_start at line 48
+'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'create' at /domains/Addell/room/cavepass1 at line 43
+'SetInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/cavepass1 (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-14.09,59
+*Read access denied.
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2024.07.19-14.13,03
+*Read access denied.
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Forgotten-Gods
-2021.06.19-22.55,30
-*call_other() couldn't find object
+2024.07.19-14.13,03
+*Read access denied.
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2024.07.19-14.14,10
+*Inherited file '/coredesc' does not exist!
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Forgotten-Gods
-2021.06.19-23.06,00
-*call_other() couldn't find object
+2024.07.19-14.14,10
+*Inherited file '/coredesc' does not exist!
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2024.07.19-20.27,47
+*Error in loading object '/domains/Addell/room/chieftain'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2024.07.19-20.28,40
+*Error in loading object '/domains/Addell/room/chieftain'
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Forgotten-Gods
-2021.06.19-23.16,15
-*call_other() couldn't find object
+2024.07.19-20.28,40
+*Error in loading object '/domains/Addell/room/chieftain'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2024.07.19-20.29,19
+*Error in loading object '/domains/Addell/room/chieftain'
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Forgotten-Gods
-2021.06.19-23.16,55
-*call_other() couldn't find object
+2024.07.19-20.29,19
+*Error in loading object '/domains/Addell/room/chieftain'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2024.07.19-20.32,13
+*Error in loading object '/domains/Addell/npc/cavetroll'
+Object: /domains/Addell/room/cavetroll (/lib/props/inventory.c) at line 27
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 210
+'do_pull_obj' at /verbs/items/pull at line 32
+'eventPull' at /domains/Addell/etc/lever#4356 (/lib/events/pull.c) at line 93
+'<fake>' at /domains/Addell/etc/lever#4356 (/<driver>) at line 0
+'openDoor' at /domains/Addell/etc/lever#4356 at line 26
+'tell_room' at /secure/sefun/sefun at /secure/sefun/communications.c:106
+'CATCH' at /secure/sefun/sefun at /secure/sefun/communications.c:106
+'create' at /domains/Addell/room/cavetroll at line 35
+'SetInventory' at /domains/Addell/room/cavetroll (/lib/props/inventory.c) at line 101
+'eventLoadInventory' at /domains/Addell/room/cavetroll (/lib/props/inventory.c) at line 58
+'eventLoadItem' at /domains/Addell/room/cavetroll (/lib/props/inventory.c) at line 27
+
+--- Forgotten-Gods
+2024.07.19-20.37,40
+*Error in loading object '/domains/Addell/room/chieftain'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2024.07.20-04.20,38
+*Error in loading object '/domains/Addell/etc/cave_orc'
+Object: /secure/cmds/creators/update at line 170
+
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 129
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170
+
+--- Forgotten-Gods
+2024.07.20-04.21,05
+*Error in loading object '/domains/Addell/etc/cave_orc'
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /cmds/creators/scan at line 40
+'to_object' at /secure/sefun/sefun at /secure/sefun/to_object.c:116
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Forgotten-Gods
-2021.06.19-23.26,11
-*call_other() couldn't find object
+2024.07.20-13.51,31
+*Error in loading object '/domains/Addell/room/_start'
 Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 149
 'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
 
 --- Forgotten-Gods
-2021.06.19-23.27,04
-*call_other() couldn't find object
-Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
+2024.07.20-13.51,31
+*Error in loading object '/domains/Addell/room/_start'
+Object: /secure/cmds/creators/update at line 170
 
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
---- Forgotten-Gods
-2021.06.19-23.35,44
-*call_other() couldn't find object
-Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
---- Forgotten-Gods
-2021.06.19-23.37,26
-*call_other() couldn't find object
-Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
---- Forgotten-Gods
-2021.06.19-23.45,32
-*call_other() couldn't find object
-Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
---- Forgotten-Gods
-2021.06.19-23.46,28
-*call_other() couldn't find object
-Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
---- Forgotten-Gods
-2021.06.19-23.55,55
-*call_other() couldn't find object
-Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
---- Forgotten-Gods
-2021.06.19-23.56,29
-*call_other() couldn't find object
-Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
---- Forgotten-Gods
-2021.06.20-00.06,21
-*call_other() couldn't find object
-Object: /secure/sefun/sefun at /secure/sefun/load_object.c:35
-
-'heart_beat' at /daemon/map at line 51
-'GetMap' at /daemon/map at line 100
-'GetGridMap' at /secure/daemon/rooms at line 146
-'CATCH' at /secure/daemon/rooms at line 146
-'load_object' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
-'CATCH' at /secure/sefun/sefun at /secure/sefun/load_object.c:35
+'<fake>' at /secure/save/creators/e/elohim (/<driver>) at line 0
+'cmdAll' at /secure/save/creators/e/elohim (/lib/command.c) at line 231
+'cmd' at /secure/cmds/creators/update at line 116
+'eventUpdate' at /secure/cmds/creators/update at line 170
+'CATCH' at /secure/cmds/creators/update at line 170

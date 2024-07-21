@@ -72,3 +72,4 @@ mixed check_light(object who) {
         return 1;
     }
 }
+

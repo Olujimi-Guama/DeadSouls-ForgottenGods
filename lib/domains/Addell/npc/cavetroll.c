@@ -13,7 +13,7 @@ static void create() {
     SetId(({"cavetroll"}));
     SetAdjectives(({"dirty","cave"}));
     SetShort("cave troll");
-    SetLong(
+    SetCoreDesc(
       "The dirty cavetroll is a huge and monstrously "
       "powerful creature with an even more vicious "
       "temperament. It had been trapped and imprisoned; "

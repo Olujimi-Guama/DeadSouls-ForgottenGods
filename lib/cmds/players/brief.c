@@ -25,3 +25,4 @@ string GetHelp() {
             "This command allows you to toggle brief room descriptions "
             "on or off.\nSee also: env");
 }
+
